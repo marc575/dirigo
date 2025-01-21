@@ -6,7 +6,7 @@ export default function Navbar() {
 
     return (
     <>
-        <div className="navbar bg-primary z-10 fixed top-0 px-10 py-4">
+        <div className="navbar bg-primary z-10 fixed top-0 p-4 md:px-10">
             <div className="navbar-start">
                 <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost text-white lg:hidden">

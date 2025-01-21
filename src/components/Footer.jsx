@@ -9,7 +9,7 @@ export default function Footer() {
     const year = new Date().getFullYear()
     return (
         <>
-            <footer className="footer bg-primary text-white md:p-10 py-6">
+            <footer className="footer bg-primary text-white md:px-10 p-4">
                 <nav>
                     <h3 className="font-bold text-lg">Liens Rapides</h3>
                     <a className="link link-hover" href="#">Accueil</a>
@@ -30,7 +30,7 @@ export default function Footer() {
                     <a className="link link-hover">Mentions légales</a>
                 </nav>
                 </footer>
-                <footer className="footer bg-primary text-white border-base-300 border-t md:p-10 py-6">
+                <footer className="footer bg-primary text-white border-base-300 border-t md:px-10 p-4">
                 <aside className="grid-flow-col items-center">
                     <img src={logo} className="w-10 rounded" alt="" />
                     <p>

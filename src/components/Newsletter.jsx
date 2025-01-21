@@ -4,13 +4,13 @@ import '../assets/css/index.css'
 export default function Newsletter() {
 
     return (
-        <div className="container mx-auto mt-20 sm:mt-0 md:p-10 px-4 py-6">
+        <div className="container mx-auto mt-20 sm:mt-0 md:p-10 p-2">
             <div className="hero max-h-screen rounded-box"
                 style={{backgroundImage: `url( ${img} )`}}>
                 <div class="hero-overlay bg-opacity-60 rounded-box"></div>
                 <div className="hero-content text-white text-center items-center justify-center flex-col lg:flex-row-reverse">
                     <div className="max-w-xl py-20">
-                        <h2 className="text-3xl font-bold">Restez informé des dernières tendances digitales</h2>
+                        <h2 className="text-xl font-bold">Restez informé des dernières tendances digitales</h2>
                         <p className="py-3 text-sm">
                             Inscrivez-vous à notre newsletter pour recevoir des conseils exclusifs et des actualités sur le marketing digital.
                         </p>
