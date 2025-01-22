@@ -88,7 +88,7 @@ export default function Reviews() {
                                 </p>
                                 <div className="avatar">
                                     <div className="w-12 rounded-full">
-                                        <img src={img_reviewer2} />
+                                        <img src={img_reviewer1} />
                                     </div>
                                 </div>
                                 <p className='mb-10'>Julie D., Responsable communication</p>

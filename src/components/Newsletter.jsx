@@ -4,7 +4,7 @@ import '../assets/css/index.css'
 export default function Newsletter() {
 
     return (
-        <div className="container mx-auto mt-20 sm:mt-0 md:p-10 p-2">
+        <div className="container mx-auto mt-20 sm:mt-0 md:p-10 px-auto" id="newsletter">
             <div className="hero max-h-screen rounded-box"
                 style={{backgroundImage: `url( ${img} )`}}>
                 <div class="hero-overlay bg-opacity-60 rounded-box"></div>
